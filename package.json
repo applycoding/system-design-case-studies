@@ -1,0 +1,20 @@
+{
+  "name": "system-design-case-studies",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Reference system design case studies by Arpan Bom",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "lint": "markdownlint-cli2",
+    "check:links": "node scripts/check-relative-links.mjs",
+    "check:mermaid": "node scripts/check-mermaid.mjs",
+    "check": "npm run lint && npm run check:links && npm run check:mermaid"
+  },
+  "devDependencies": {
+    "markdownlint-cli2": "0.23.3"
+  }
+}

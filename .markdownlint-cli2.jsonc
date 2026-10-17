@@ -1,0 +1,9 @@
+{
+  // Tables, API paths, and worked arithmetic run past an 80-column limit.
+  "globs": ["**/*.md"],
+  "gitignore": true,
+  "noBanner": true,
+  "config": {
+    "MD013": false
+  }
+}
